@@ -1,0 +1,24 @@
+.toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px;
+    gap: 40px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+   
+    transition: opacity 0.3s ease;
+}
+
+.icon:hover,
+.active {
+    transform: scale(1.4); /* Increase size by 20% */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    opacity: 1;
+    
+}
